@@ -1,23 +1,19 @@
 ---
 layout: home
 
-# hero:
-#   name: "计算机优质资源网"
-#   actions:
-#     - theme: brand
-#       text: Go to Start
-#       link: /markdown-examples
-
 ---
+<start/>
 <Image/>
 <script>
   import Image from './components/Home/image.vue'
+  import start from './components/Home/start.vue'
   export default {
     data() {
       return {}
     },
     components: {
       Image,
+      start
     }
   }
 </script>
